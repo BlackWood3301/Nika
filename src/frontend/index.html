@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт комплиментов  для Никули</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="background-music" loop>
+        <source src="sound/I Love you so - The Walters [edit audio].mp3" type="audio/mp3">
+        Ваш браузер не поддерживает аудио элемент.
+    </audio>
+    <div class="music-control">
+        <button id="music-toggle">
+            <i class="icon-music-off"></i>
+        </button>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Ника</div>
+                <ul class="menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О Нике</a></li>
+                    <li><a href="#timeline">Достижения</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#compliments">Комплименты</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Доска комплиментов и отзывов</h1>
+                <p>Место, где собраны искренние мнения и добрые слова</p>
+                <a href="#compliments" class="btn">Смотреть комплименты</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О Нике</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Ника — творческий и целеустремленный человек. Благодаря своему профессионализму и ответственному подходу к работе, она заслужила уважение коллег и друзей.</p>
+                    <p>Этот сайт — площадка для отзывов и комментариев о её проектах и достижениях. Здесь каждый может оставить своё мнение и поделиться впечатлениями.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/5438147402918917044.jpg" alt="Ника">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2>Хронология достижений</h2>
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Январь 2020</div>
+                    <div class="timeline-content">
+                        <h3>Начало карьеры</h3>
+                        <p>Ника начала свой профессиональный путь в компании "Инновация", где проявила себя как талантливый специалист.</p>
+                        <div class="timeline-badge">🚀</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Июнь 2020</div>
+                    <div class="timeline-content">
+                        <h3>Первый успешный проект</h3>
+                        <p>Успешно реализован первый крупный проект под руководством Ники, который получил высокую оценку клиентов.</p>
+                        <div class="timeline-badge">🏆</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Март 2021</div>
+                    <div class="timeline-content">
+                        <h3>Повышение</h3>
+                        <p>Благодаря своим профессиональным качествам и достижениям, Ника получила повышение до старшего специалиста.</p>
+                        <div class="timeline-badge">📈</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Сентябрь 2021</div>
+                    <div class="timeline-content">
+                        <h3>Инновационное решение</h3>
+                        <p>Разработала и внедрила инновационное решение, которое повысило эффективность работы команды на 30%.</p>
+                        <div class="timeline-badge">💡</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Февраль 2022</div>
+                    <div class="timeline-content">
+                        <h3>Участие в конференции</h3>
+                        <p>Выступила с докладом на международной отраслевой конференции, где представила результаты своих исследований.</p>
+                        <div class="timeline-badge">🎤</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Октябрь 2022</div>
+                    <div class="timeline-content">
+                        <h3>Руководство отделом</h3>
+                        <p>Назначена руководителем отдела, где успешно координирует работу команды из 12 специалистов.</p>
+                        <div class="timeline-badge">👑</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Май 2023</div>
+                    <div class="timeline-content">
+                        <h3>Награда "Лучший сотрудник"</h3>
+                        <p>Получила престижную корпоративную награду "Лучший сотрудник года" за выдающиеся результаты работы.</p>
+                        <div class="timeline-badge">🥇</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/5438147402918917044.jpg" alt="Ника">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/5438147402918917046.jpg" alt="Ника">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/5438147402918917044.jpg" alt="Ника">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/5438147402918917046.jpg" alt="Ника">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="compliments" class="compliments">
+        <div class="container">
+            <h2>Комплименты и отзывы</h2>
+            <div class="compliments-container">
+                <div class="compliments-list">
+                    <div class="compliment-card">
+                        <div class="compliment-header">
+                            <h3>Отличный организатор</h3>
+                            <p class="compliment-author">От: Алексей</p>
+                        </div>
+                        <div class="compliment-content">
+                            <p>Ника прекрасно организовала наше корпоративное мероприятие. Всё прошло на высшем уровне, все участники остались довольны.</p>
+                        </div>
+                        <div class="comments-container">
+                            <h4 class="comments-toggle">Комментарии (2)</h4>
+                            <div class="comments-list">
+                                <div class="comment">
+                                    <div class="comment-author">Игорь</div>
+                                    <div class="comment-date">12.03.2023</div>
+                                    <div class="comment-text">Полностью согласен, мероприятие было отличным!</div>
+                                </div>
+                                <div class="comment">
+                                    <div class="comment-author">Елена</div>
+                                    <div class="comment-date">15.03.2023</div>
+                                    <div class="comment-text">Особенно понравилась развлекательная программа.</div>
+                                </div>
+                            </div>
+                            <div class="comment-form-container">
+                                <form class="comment-form">
+                                    <input type="hidden" class="comment-compliment-id" value="1">
+                                    <div class="form-group">
+                                        <input type="text" class="comment-author-input" placeholder="Ваше имя" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="comment-text-input" placeholder="Ваш комментарий" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn comment-submit">Добавить комментарий</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="compliment-card">
+                        <div class="compliment-header">
+                            <h3>Профессионал своего дела</h3>
+                            <p class="compliment-author">От: Дмитрий</p>
+                        </div>
+                        <div class="compliment-content">
+                            <p>Ника — отличный специалист, который всегда подходит к задачам основательно и выполняет их качественно. Приятно работать с профессионалами.</p>
+                        </div>
+                        <div class="comments-container">
+                            <h4 class="comments-toggle">Комментарии (1)</h4>
+                            <div class="comments-list">
+                                <div class="comment">
+                                    <div class="comment-author">Марина</div>
+                                    <div class="comment-date">20.03.2023</div>
+                                    <div class="comment-text">Подтверждаю, очень ответственный человек!</div>
+                                </div>
+                            </div>
+                            <div class="comment-form-container">
+                                <form class="comment-form">
+                                    <input type="hidden" class="comment-compliment-id" value="2">
+                                    <div class="form-group">
+                                        <input type="text" class="comment-author-input" placeholder="Ваше имя" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="comment-text-input" placeholder="Ваш комментарий" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn comment-submit">Добавить комментарий</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="compliment-card">
+                        <div class="compliment-header">
+                            <h3>Креативный подход</h3>
+                            <p class="compliment-author">От: Сергей</p>
+                        </div>
+                        <div class="compliment-content">
+                            <p>Хочу отметить креативный подход Ники к решению задач. Она всегда находит нестандартные решения, которые оказываются очень эффективными.</p>
+                        </div>
+                        <div class="comments-container">
+                            <h4 class="comments-toggle">Комментарии (0)</h4>
+                            <div class="comments-list">
+                                <!-- Комментарии будут добавляться сюда -->
+                            </div>
+                            <div class="comment-form-container">
+                                <form class="comment-form">
+                                    <input type="hidden" class="comment-compliment-id" value="3">
+                                    <div class="form-group">
+                                        <input type="text" class="comment-author-input" placeholder="Ваше имя" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="comment-text-input" placeholder="Ваш комментарий" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn comment-submit">Добавить комментарий</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="compliment-form-container">
+                    <h3>Оставить отзыв</h3>
+                    <form class="compliment-form">
+                        <div class="form-group">
+                            <input type="text" id="compliment-title" placeholder="Заголовок отзыва" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="compliment-author" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="compliment-message" placeholder="Ваш отзыв" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить отзыв</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Ника</div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О Нике</a></li>
+                        <li><a href="#timeline">Достижения</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#compliments">Комплименты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="icon-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="icon-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="icon-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Сайт комплиментов и отзывов. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
